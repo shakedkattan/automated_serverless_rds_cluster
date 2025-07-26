@@ -1,5 +1,5 @@
 locals {
-  mysql_list    = []
+  mysql_list    = ["test2", ]
   postgres_list = ["payments", "analytics", ]
 
   # Map DB name
